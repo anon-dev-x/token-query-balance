@@ -1,0 +1,24 @@
+{
+  "name": "sol-token-query",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "balances": "tsx get-balances.ts",
+    "start": "tsx get-balances.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@solana/kit": "5.0.0",
+    "@solana/spl-token": "0.4.14"
+  },
+  "devDependencies": {
+    "@types/node": "24.9.2",
+    "tsx": "4.20.6",
+    "typescript": "5.9.3"
+  }
+}
